@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css?family=Chakra+Petch:wght@400;700&display=swap');
+
+:root {
+  --cor-de-fundo: #06d6063b;
+  --verde: #67f155cb;
+  --branco: #3a3232;
+  --botao-ativo: #188b01;
+  --botao-inativo: #5cf58a6e;
+  --texto-fundo: #55ffb84d;
+}
+
+
+body {
+  background-color: var(--cor-de-fundo);
+  color: var(--branco);
+  font-family: 'Chakra Petch', sans-serif;
+}
+
+header {
+  background-color: #1ba500;
+  color: #ffffff;
+  padding: 20px;
+  text-align: center;
+}
+.introducao{
+  text-align: center;
+  font-size: 20px;
+  font-family: serif;
+  justify-items: center;
+}
+.cp {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+
+.botao {
+  background-color: var(--botao-inativo);
+  color: var(--branco);
+  display: flex;
+  justify-content: center;
+  padding: 1em;
+  font-size: 23px;
+  align-items: center;
+  width: 100%;
+  border-bottom: 4px solid var(--botao-ativo);
+  border-left: 2px solid var(--botao-ativo);
+  border-right: 2px solid var(--botao-ativo);
+  border-top: none;
+  cursor: pointer;
+  font-family:monospace;
+}
+
+
+
+
+.botao:first-child {
+  border-radius: 40px 40px 0 0;
+}
+
+.topico {
+  display: block;
+
+}
+@media screen and (min-width: 768px) {
+  .topico {
+      display: flex;
+  }
+
+  .botao:first-child {
+      border-radius: 40px 0 0 0;
+  }
+
+  .botao:last-child {
+      border-radius: 0 40px 0 0;
+  }
+}
+.botao.a{
+  background-color: var(--botao-ativo);
+  border-bottom: 4px solid var(--verde);
+  }
+  
+  .abas-textos{
+    background-color: var(--texto-fundo);
+    padding: 40px;
+    border-radius: 0 0 40px 40px ;
+}
+
+.aba-conteudo.a{
+  display: block;
+}
+.aba-conteudo{
+  display: none;
+
+}
+.aba-conteudo-titulo-principal{
+  font-size: 28px;
+  text-align:center ;
+}
+
+.aba-conteudo-titulo-secundario{
+  text-align: center;
+  color: var(--verde);
+  text-transform: uppercase;
+}
+
+h1, h2, h3, h4 {
+  color: #000000;
+}
+.t1{
+  font-family:  Verdana, Geneva, Tahoma, sans-serif;
+  color: #fff5f5;
+  font-size: 250%;
+}
+.t2{
+  font-size: 25px;
+  font-family:cursive;
+  font-style: oblique;
+}
+
+  .p{
+    text-align: center;
+    font-size: 150%;
+    margin-top: 25px;
+    margin: right 50px;
+    margin-left:50px ;
+    color: #000000;
+  }
+  .lista{
+    font-size: 150%;
+    margin-top: 90px;
+  }
+
+  #topo{
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background-color: red;
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 18px;
+    cursor: pointer;
+  }
+  #topo:hover{
+    background-color: #555;
+  }
+
+  footer {
+    background-color:  #1ba500;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+  }
+
+  .titulo{
+    font-size: 25px;
+  }
+
+  .image-center {
+    display: flex;
+    justify-content: center;
+}
+ .planta{
+  width: 250px;
+ }
+ .agrofloresta{
+  width:350px;
+  
+  margin: 50px;
+ }
+ .orga{
+  width: 350px;
+  margin: 50px;
+ }
+ .turismo{
+  width: 350px;
+  margin: 50px;
+ }
+.empreendedorismo{
+  width: 350px;
+  margin: 50px;
+}
+.tecnologia{
+  width: 350px;
+  margin: 50px;
+}
