@@ -34,8 +34,9 @@ header {
   justify-content: center;
   align-items: center;
   max-width: 1200px;
-  width: 900px;
+  width: 100%;
   margin: 0 auto;
+  padding: 0 20px;
 }
 
 
@@ -171,26 +172,33 @@ h1, h2, h3, h4 {
     justify-content: center;
 }
  .planta{
-  width: 250px;
+  width: 100%;
+  max-width: 350px;
+  margin: 20px auto;
  }
  .agrofloresta{
-  width:350px;
+  width: 100%;
+  max-width: 350px;
+  margin: 20px auto;
   
-  margin: 50px;
  }
  .orga{
-  width: 350px;
-  margin: 50px;
+  width: 100%;
+  max-width: 350px;
+  margin: 20px auto;
  }
  .turismo{
-  width: 350px;
-  margin: 50px;
+  width: 100%;
+  max-width: 350px;
+  margin: 20px auto;
  }
 .empreendedorismo{
-  width: 350px;
-  margin: 50px;
+  width: 100%;
+  max-width: 350px;
+  margin: 20px auto;
 }
 .tecnologia{
-  width: 350px;
-  margin: 50px;
+  width: 100%;
+  max-width: 350px;
+  margin: 20px auto;
 }
